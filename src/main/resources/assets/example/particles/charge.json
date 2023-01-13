@@ -1,0 +1,11 @@
+{
+  "textures": [
+    "example:charge_0",
+    "example:empty",
+    "example:charge_1",
+    "example:empty",
+    "example:charge_2",
+    "example:empty",
+    "example:charge_3"
+  ]
+}

@@ -18,10 +18,11 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.fabricmc.example.ExampleMod"
     ]
   },
+  "accessWidener": "example.accesswidener",
   "mixins": [
     "modid.mixins.json"
   ],
@@ -29,7 +30,8 @@
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.19.2",
+    "prism": ">=1.0.3",
     "java": ">=17"
   },
   "suggests": {
